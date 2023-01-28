@@ -16,6 +16,8 @@ function Home() {
             I am a fresh graduate with a passion for building web applications.
           </p>
 
+
+
           <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=new">
             <EmailIcon />
           </a>
