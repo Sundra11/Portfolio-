@@ -1,60 +1,56 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 // import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import EmailIcon from '@mui/icons-material/Email';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
 import "../styles/Home.css";
 
-
 function Home() {
-
   return (
-   <div className='home'>
-
-      <div className='about'>
+    <div className="home">
+      <div className="about">
         <h2>Hi, my name is Sundramoorthy</h2>
-        <div className='prompt'>
-          <p>I am a fresh graduate with a passion for building web applications.</p> 
+        <div className="prompt">
+          <p>
+            I am a fresh graduate with a passion for building web applications.
+          </p>
 
-              <EmailIcon/>
-              <LinkedInIcon/>
-              <GitHubIcon/>
+          <a target="_blank" href="https://www.google.com.my/search?q=kunji&hl=en&authuser=0&tbm=isch&sxsrf=AJOqlzWkodyvUS6eWIcTZzOC6lWyxn2r8w%3A1674921583203&source=hp&biw=1920&bih=937&ei=b0bVY9CCCurt2roPt56G-AQ&iflsig=AK50M_UAAAAAY9VUf-LzfHer0NhlZ8PrT5rLTHwe00U7&ved=0ahUKEwiQ9vaP0er8AhXqtlYBHTePAU8Q4dUDCAc&uact=5&oq=kunji&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgjEOoCECc6BAgjECc6CAgAEIAEELEDOgUIABCxAzoICAAQsQMQgwE6BAgAEAM6CwgAEIAEELEDEIMBUPkIWLUOYK4QaAJwAHgAgAEpiAHFAZIBATWYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCg&sclient=img#imgrc=Wobk16hCJ_Aw4M">
+            <EmailIcon />
+          </a>
 
+          <a target="_blank" href="https://www.linkedin.com/in/sundrabalakrishnan/">
+            <LinkedInIcon />
+          </a>
+
+          <a target="_blank" href="https://github.com/Sundra11">
+            <GitHubIcon />
+          </a>
 
         </div>
       </div>
-      <div className='skills'>
+      <div className="skills">
         <h1>Skills</h1>
-        <ol className='list'>
-          <li className='item'>
+        <ol className="list">
+          <li className="item">
             <h2>Front-End</h2>
-            <span>
-              ReactJS, HTML, CSS, JavaScript, BootStrap, SASS
-            </span>
+            <span>ReactJS, HTML, CSS, JavaScript, BootStrap, SASS</span>
           </li>
 
-    
-
-          <li className='item'>
+          <li className="item">
             <h2>Languages</h2>
-            <span>
-              JavaScript, Java, C++, C#
-            </span>
+            <span>JavaScript, Java, C++, C#</span>
           </li>
 
-          <li className='item'>
+          <li className="item">
             <h2>Others</h2>
-            <span>
-              Android Studio, .NET, MySQL, Firebase, Adobe Photoshop
-            </span>
+            <span>Android Studio, .NET, MySQL, Firebase, Adobe Photoshop</span>
           </li>
-          
         </ol>
       </div>
-       
-   </div>
-    
-  )
+    </div>
+  );
 }
 
 export default Home;
