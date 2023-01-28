@@ -16,7 +16,7 @@ function Home() {
             I am a fresh graduate with a passion for building web applications.
           </p>
 
-          <a target="_blank" href="https://www.google.com.my/search?q=kunji&hl=en&authuser=0&tbm=isch&sxsrf=AJOqlzWkodyvUS6eWIcTZzOC6lWyxn2r8w%3A1674921583203&source=hp&biw=1920&bih=937&ei=b0bVY9CCCurt2roPt56G-AQ&iflsig=AK50M_UAAAAAY9VUf-LzfHer0NhlZ8PrT5rLTHwe00U7&ved=0ahUKEwiQ9vaP0er8AhXqtlYBHTePAU8Q4dUDCAc&uact=5&oq=kunji&gs_lcp=CgNpbWcQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgjEOoCECc6BAgjECc6CAgAEIAEELEDOgUIABCxAzoICAAQsQMQgwE6BAgAEAM6CwgAEIAEELEDEIMBUPkIWLUOYK4QaAJwAHgAgAEpiAHFAZIBATWYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABCg&sclient=img#imgrc=Wobk16hCJ_Aw4M">
+          <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=new">
             <EmailIcon />
           </a>
 

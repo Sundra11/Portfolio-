@@ -9,9 +9,19 @@ function Footer() {
   return (
     <div className='footer'>
         <div className="socialMedia">
-        <InstagramIcon/>
-        <LinkedInIcon/>
+
+        <a target="_blank" href="https://www.instagram.com/sundra_11/">
+          <InstagramIcon/>
+        </a>  
+        
+        <a target="_blank" href="https://www.linkedin.com/in/sundrabalakrishnan/">
+          <LinkedInIcon/>
+        </a>
+        
+        <a target="_blank" href="https://github.com/Sundra11">
         <GitHubIcon/>
+        </a>
+        
         
 
         </div>
