@@ -36,17 +36,17 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2>Front-End</h2>
-            <span>ReactJS, HTML, CSS, JavaScript, BootStrap, SASS</span>
+            <span>ReactJS, NextJs, HTML, CSS, JavaScript, BootStrap, SASS</span>
           </li>
 
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, C++, C#</span>
+            <span>JavaScript, Java, C++, C#, Python</span>
           </li>
 
           <li className="item">
             <h2>Others</h2>
-            <span>Android Studio, .NET, MySQL, Firebase, Adobe Photoshop</span>
+            <span>Android Studio, .NET, MySQL, Firebase, MongoDB, Adobe Photoshop</span>
           </li>
         </ol>
       </div>
