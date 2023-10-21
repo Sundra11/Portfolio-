@@ -9,13 +9,11 @@ function Home() {
   return (
     <div className="home">
       <div className="about">
-        <h2>Hi, my name is Sundramoorthy</h2>
+        <h2>Hi, my name is Sundramoorthy Balakrishnan</h2>
         <div className="prompt">
           <p>
             I am a fresh graduate with a passion for building web applications.
           </p>
-
-
 
           <a target="_blank" href="https://mail.google.com/mail/u/0/#inbox?compose=new">
             <EmailIcon />
